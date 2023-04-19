@@ -1,0 +1,523 @@
+<?php /* Template Name: Voce-sabia Template */ ?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<script src="https://www.googleoptimize.com/optimize.js?id=OPT-TGD7MV5"></script>
+  <head>
+	<meta name="facebook-domain-verification" content="m2vgebu64emsyd08d5bqlt8cffv44v" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title><?php the_title() ?> - Dra. Ana Carulina Moreno</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href="<?php echo get_bloginfo('template_directory'); ?>/assets/favicon1.ico" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+
+    <?php get_header(); ?>
+
+    <style>
+        #page > #header{
+            display: none;
+        }
+
+        #page > hr{
+            display: none;
+        }
+
+    body{
+        margin-top: 0!important;
+    }
+        
+    </style>
+  <head>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!-- Custom styles for this template -->
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+    <?php get_header(); ?>   
+ 
+	  <style>
+      .float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:20px;
+  right:20px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:41px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+        #page > #header{
+            display: none;
+        }
+        #page > hr{
+            display: none;
+        }
+    body{
+        margin-top: 0!important;
+    }
+    </style>
+	  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  </head>
+
+  <body>
+<a href="https://wa.me/5521996256065" class="float" target="_blank">
+<i style="color: #fff;" class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+
+    <div class="second-header">
+      <div class="container" id="web">
+          <div class="col-md-12" >
+            <nav class="blog-nav">
+                <div class="row">
+                      <div class="col-md-1 navigation-item-start">
+                          <a href="<?php echo get_bloginfo('url') ?>/">
+                            <span>HOME</span>
+                          </a>
+                          <img src="<?php echo get_bloginfo('template_directory')?>/assets/geral/menu/menuseparator.png"></img>
+                      </div>
+                      <div class="col-md-2 navigation-item-start ">
+                        <a href="<?php echo get_bloginfo('url'); ?>/#perfil">
+                          <span>PERFIL</span>
+                        </a>
+                        <img src="<?php echo get_bloginfo('template_directory')?>/assets/geral/menu/menuseparator.png"></img>                        
+                      </div>
+                      <div class="col-md-2 navigation-item-middle">
+                        <a href="<?php echo get_bloginfo('url'); ?>/#tratamentos">
+                          <span>TRATAMENTOS</span>
+                        </a>
+                      </div>
+
+                      <div class="col-md-2 navigation-item logo-header-img second-logo-header">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/menu/menulogo.png"></img>
+                      </div>
+
+                      <div class="col-md-2 navigation-item-start navigation-item-active">
+                        <a href="<?php echo get_bloginfo('url'); ?>/#news">
+                          <span>NEWS</span>
+                        </a>
+                        <img src="<?php echo get_bloginfo('template_directory')?>/assets/geral/menu/menuseparator.png"></img>                        
+                      </div>
+                      <div class="col-md-2 navigation-item-end">
+                        <a href="<?php echo get_bloginfo('url') ?>/convenios">
+                          <span>CONVÊNIOS</span>
+                        </a>
+                        <img src="<?php echo get_bloginfo('template_directory')?>/assets/geral/menu/menuseparator.png"></img>                        
+                      </div>
+                      <div class="col-md-1 navigation-item-middle ">
+                        <a href="<?php echo get_bloginfo('url') ?>/contato">
+                          <span>CONTATO</span>
+                        </a>
+                      </div>
+                  </div>
+            </nav>
+          </div>
+          <div class"col-md-1"></div>
+      </div>
+
+    <nav class="navbar navbar-default" id="mobile">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-dr" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a href="<?php echo get_bloginfo('url') ?>/">
+              <img class="logo" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/menu/logombl.png"></img>             
+            </a>
+          </div>
+
+          <div id="navbar-dr" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="<?php echo get_bloginfo('url') ?>/">HOME</a></li>
+              <li class=""><a href="<?php echo get_bloginfo('url') ?>/#perfil">PERFIL</a></li>
+              <li class=""><a href="<?php echo get_bloginfo('url') ?>/#tratamentos">TRATAMENTOS</a></li>
+              <li class="a-active"><a href="<?php echo get_bloginfo('url') ?>/#news">NEWS</a></li>
+              <li class=""><a href="<?php echo get_bloginfo('url') ?>/convenios">CONVÊNIOS</a></li>
+              <li class=""><a href="<?php echo get_bloginfo('url') ?>/contato">CONTATO</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </div> 
+
+
+
+    <?php
+        //GETTING PREVIOUS POST (RECOMMEND)
+        $prev = get_previous_post();                    
+
+        if (empty($prev)){
+            $prev_post = array();
+
+            $loop = get_posts( 'numberposts=1&order=DESC' );
+            $last = (array) $loop[0];
+
+
+            $prev_post['ID']             = $last['ID'];
+            $prev_post['post_title']     = $last['post_title'];
+            
+            $s                                = strip_shortcodes(wp_trim_words( $last['post_content'], 20 ));
+
+            $prev_post['content'] = substr($s, 0, strrpos($s, ' '));
+            $prev_post['link']    = get_permalink($prev_post['ID']);
+            
+
+            //Getting attachments
+            $attachments = get_posts( array(
+                'offset'         => 0,
+                'orderby'        => 'date',
+                'order'          => 'ASC',
+                'post_type'      => 'attachment',
+                'numberposts'    => -1
+            
+            ));
+            
+
+            //Setting attachments
+            if ( $attachments ) {
+                foreach ( $attachments as $attachment ) {
+
+                    $post_parent_id = $attachment->post_parent;
+
+                    if ($post_parent_id == $prev_post['ID']){
+
+                    $thumb = wp_get_attachment_link( $attachment->ID, 'thumbnail-size', true );
+
+                    $prev_post['attachment'] = (array) $attachment;
+                    }
+                }
+            }
+        }
+        else{
+            $prev_post = array();
+            $prev = (array) get_previous_post();                    
+            
+            $prev_post['ID']             = $prev['ID'];
+            $prev_post['post_title']     = $prev['post_title'];
+            
+            $s                                = strip_shortcodes(wp_trim_words( $prev['post_content'], 20 ));
+            
+            $prev_post['content'] = substr($s, 0, strrpos($s, ' '));
+            
+            $prev_post['link']    = get_permalink($prev_post['ID']);
+        
+
+            //Getting attachments
+            $attachments = get_posts( array(
+                'offset'         => 0,
+                'orderby'        => 'date',
+                'order'          => 'DESC',
+                'post_type'      => 'attachment',
+                'numberposts'    => -1
+            ));
+
+
+            //Setting attachments
+            if ( $attachments ) {
+                foreach ( $attachments as $attachment ) {
+
+                    $post_parent_id = $attachment->post_parent;
+
+                    if ($post_parent_id == $prev_post['ID']){
+
+                    $thumb = wp_get_attachment_link( $attachment->ID, 'thumbnail-size', true );
+
+                    $prev_post['attachment'] = (array) $attachment;
+                    }
+                }
+            }
+        }
+        
+
+        //GETTING NEXT POST (RECOMMEND)
+        $next = get_next_post();
+        
+        if (empty($next)){
+            
+            $loop = get_posts( 'numberposts=1&order=ASC' );
+            $first = (array) $loop[0];
+            
+            $next_post['ID']            = $first['ID'];
+            $next_post['post_title']    = $first['post_title'];
+
+            $s                                = strip_shortcodes(wp_trim_words( $first['post_content'], 20 ));
+
+            $next_post['content'] = substr($s, 0, strrpos($s, ' '));
+            $next_post['link']    = get_permalink($next_post['ID']);
+        
+            //Getting attachments
+            $attachments = get_posts( array(
+                'offset'         => 0,
+                'orderby'        => 'date',
+                'order'          => 'ASC',
+                'post_type'      => 'attachment',
+            ));
+            
+
+            //Setting attachments
+            if ( $attachments ) {
+                foreach ( $attachments as $attachment ) {
+
+                    $post_parent_id = $attachment->post_parent;
+
+                    if ($post_parent_id == $next_post['ID']){
+
+                    $thumb = wp_get_attachment_link( $attachment->ID, 'thumbnail-size', true );
+
+                    $next_post['attachment'] = (array) $attachment;
+                    }
+                }
+            }
+        }
+        else{
+            
+            $next_post = array();
+            $next = (array) get_next_post();    
+            
+            $next_post['ID']          = $next['ID'];
+            $next_post['post_title']  = $next['post_title'];
+
+            $s                                = strip_shortcodes(wp_trim_words( $next['post_content'], 20 ));
+            $next_post['content'] = substr($s, 0, strrpos($s, ' '));
+
+            $next_post['link']    = get_permalink($next_post['ID']);
+        
+
+            //Getting attachments
+            $attachments = get_posts( array(
+                'offset'         => 0,
+                'orderby'        => 'date',
+                'order'          => 'DESC',
+                'post_type'      => 'attachment',
+                'numberposts'    => -1
+            ));
+
+            //Setting attachments
+            if ( $attachments ) {
+                foreach ( $attachments as $attachment ) {
+
+                    $post_parent_id = $attachment->post_parent;
+
+                    if ($post_parent_id == $next_post['ID']){
+
+                    $thumb = wp_get_attachment_link( $attachment->ID, 'thumbnail-size', true );
+
+                    $next_post['attachment'] = (array) $attachment;
+                    }
+                }
+            }
+        }
+
+        //Getting post info ------------------------------------------
+        $post = (array) get_post(); 
+        $content = apply_filters('the_content', $post['post_content']);
+
+        $post_link = get_permalink();
+        
+        //Getting attachments
+        $attachments = get_posts( array(
+            'offset'         => 0,
+            'orderby'        => 'date',
+            'order'          => 'ASC',
+            'post_type'      => 'attachment',
+            'numberposts'    => -1
+        ));
+        
+        //Setting attachments
+        if ( $attachments ) {
+                foreach ( $attachments as $attachment ) {
+
+                    $post_parent_id = $attachment->post_parent;
+
+                    if ($post_parent_id == $post['ID']){
+
+                    $thumb = wp_get_attachment_link( $attachment->ID, 'thumbnail-size', true );
+
+                    $post['attachment'] = (array) $attachment;
+                    $post['thumb']      = $thumb;                      
+                    }
+                }
+        }
+
+    ?>
+
+
+
+    <div class="" id="perfil">
+    <!-- CONTAINER -->
+    <div class="container center-block">
+        <!-- INTRO -->
+            <div class="container intro">
+                <div class="row">
+                    <div class="col-md-12 intro-text-section">
+                        <div>
+                            <span class="estrutura-title"><?php echo $post['post_title'] ?></span>
+                            </span>
+                        </div>
+                        <br>
+
+                        <div class="col-md-12" style="padding:0em;">
+                          <span class="estrutura-news-text">
+                              <?php echo $content ?>
+                           </span>
+                           <br>                               
+                        </div>
+                  </div>
+              </div>
+
+              <hr style="margin: 3em 0em">
+
+              <div class="col-md-2">
+                <span class="article-h1">LEIA<br>OUTROS<br>ARTIGOS</span>
+              </div>
+
+
+              <div class="col-md-4 news-item">
+
+              
+                <div class="height">
+                  <div style="overflow-y: hidden;
+                        height: 147px;
+                        margin-bottom: 1em;">
+                        <img  class="" src="<?php echo $prev_post['attachment']['guid']?>"
+                        style="width: 100%;position: static;">
+                    </div>
+
+                    <p class="news-title"><?php echo strtoupper($prev_post['post_title']) ?></p>
+                    <p class="news-content">
+                      <?php echo $prev_post['content'] ?> (...)
+                    </p>
+                </div>
+
+                <a href="<?php echo $prev_post['link'] ?>">
+                    <div class="news-button-container">
+                        <div class="news-button-inner">
+                            LEIA MAIS
+                        </div>
+                        <div class="news-button-arrow">
+                            >
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 news-item">
+                <div class="height">
+                    <div style="overflow-y: hidden;
+                            height: 147px;
+                            margin-bottom: 1em;">
+                            <img  class="" src="<?php echo $next_post['attachment']['guid']?>"
+                            style="width: 100%;position: static;">
+                    </div>  
+                    <p class="news-title"><?php echo strtoupper($next_post['post_title']) ?></p>
+                    <p class="news-content">
+                      <?php echo $next_post['content'] ?> (...)
+                    </p>
+                </div>
+
+                <a href="<?php echo $next_post['link'] ?>">
+                    <div class="news-button-container">
+                        <div class="news-button-inner">
+                            LEIA MAIS
+                        </div>
+                        <div class="news-button-arrow">
+                            >
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            </div><!-- /.INTRO -->
+    </div><!-- /.container -->
+</div>
+
+
+           <!-- FOOTER -->
+           <div class="footerbg" style="background-color: #D6619B; background-repeat: no-repeat; background-image: url('<?php echo get_bloginfo('template_directory')?>/assets/geral/footer/footerbg.png')">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-3" style="text-align: center;">
+                       <img  class="" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/footerlogo.png">                                                                                                                                                                                                  
+                   </div>
+                   <br>
+                   <div class="col-md-5">
+                   <div class="footer-item">
+                       <img  class="" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/mail.png">                                                                                                                                                                                                            
+                       <span>contato@carumoreno.com</span>
+                   </div>
+
+                   <div class="footer-item">
+                       <img  class="" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/tel.png">                                                                                                                                                                      
+                       <span>(21) 2132-7303 | 99625-6065 </span>
+                   </div>
+
+                   <div class="footer-item">
+                        <img  class="address-img" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/end.png">                                                                                    
+                        <div class="address">
+                            <span>Av. Embaixador Abelardo Bueno, 1</span><br>
+                            <span>Dimension Office Park, Bloco Lagoa 1, Lj 162.</span><br>
+                            <span>Barra da Tijuca - Rio de Janeiro / RJ</span>
+							 <span> "Política de Privacidade" </span><br>
+							
+                            <a href="https://www.carumoreno.com.br/politica-de-privacidade/" target="_blank">
+                        
+					   
+                        <div class="footer-networks">
+                            <a href="https://www.facebook.com/dra.carumoreno/" target="_blank">
+                                <img  class="address-img" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/fb.png">                                                                                    
+                            </a>
+                            <a href="https://www.instagram.com/dra.carumoreno/" target="_blank">                            
+                                <img  class="address-img" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/ig.png">                                                                                    
+                            </a>    
+                            <a href="https://br.linkedin.com/in/acdermatologia" target="_blank">
+                                <img  class="address-img" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/in.png">                                                                                                                    
+                            </a>    
+                        </div>
+                        <br>
+                    </div>
+
+                   </div>
+                   <div class="col-md-2">
+                       <img  class="" src="<?php echo get_bloginfo('template_directory'); ?>/assets/geral/footer/footermapa.png">
+                   </div>
+               </div>
+           </div><!-- /.FOOTER -->
+            </div>
+            <div class="second-footer">
+                <span> Dra. Ana Carulina Moreno © 2017  | Todos os Direitos Reservados</span>
+            </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <!--<script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/javascript.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
